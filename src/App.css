@@ -6,6 +6,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-bar{
+  background:white;  
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.header1-container{
+  background-color: rgb(189, 179, 179);
+  height: 20vh;
+  align-items: center;
+
+}
+.header-content{
+  display: flex;
+}
+.text-class{
+  border-radius: 100px;
+  border: none;
+  background-image: url('assets/icons/Take.png');
+  background-position: right;
+  /* margin-right: */
+  margin:2%;
+  background-size: 15px;
+  background-position-x: 90%;
+  background-repeat: no-repeat;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
